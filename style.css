@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.body {
+    background-color: white;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div {
+    border: 2px solid #533209;
+    background-color: rgb(23, 92%, 54%);
+    border-radius: 12px;
+    display: flex;
+    margin-top: 30vh;
+    background-color: hsl(34.78deg 68.32% 80.2%);
+}
+.ticket-heading{
+    color: rgb(248, 91, 0);
+    text-transform: uppercase;
+    font-family: 'Noto Serif', serif;
+
+   
+}
+.inner-div div h1 {
+    text-align: center;
+    
+    
+}
+#h2-num-5{
+    font-family: monospace;
+    font-size: 40px;
+}
+.num-1 {
+    rotate: 90deg;
+    position: relative;
+}
+
+.num-2 {
+    rotate: -90deg;
+    position: relative;
+}
+
+.h2-num {
+    text-align: center;
+}
+
+.hr-w {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.content-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    position: relative; 
+}
+.heading-border-b{
+    border-bottom: 2px solid rgb(99, 66, 5);
+    border-radius: 5px;
+}
+.heading-div {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.border-b-right{
+    border-top: 2px solid rgb(99, 66, 5);
+    border-radius: 5px;
+    width: 90px;
+    margin: 0px -15px;
+}
+.border-b-left{
+    border-top: 2px solid rgb(99, 66, 5);
+    border-radius: 5px;
+    width: 90px;
+    margin: 0px -22px;
+}
+.left-num {
+    position: absolute;
+    left: 0; 
+    right: 10; 
+    bottom: 10px;
+    left: -23px;
+}
+
+.right-num {
+    position: absolute;
+    right: 10; 
+    bottom: 10px;
+    left: -30px;
+}
